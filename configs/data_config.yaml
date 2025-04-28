@@ -1,0 +1,17 @@
+data:
+  case: 'multicoil'  # or 'singlecoil' depending on what you want to run
+  clients:
+    multicoil:
+      - name: 'knee'
+        path: '/data/knee/'
+      - name: 'umram'
+        path: '/data/umram/'
+      - name: 'fastbrain'
+        path: '/data/fastbrain/'
+    singlecoil:
+      - name: 'BraTS'
+        path: '/data/BraTS/'
+      - name: 'fastmri'
+        path: '/data/fastmri/'
+      - name: 'MIDAS'
+        path: '/data/MIDAS/'

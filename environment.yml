@@ -1,0 +1,33 @@
+name: fedGAT
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - torchaudio=2.3.0
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - flash-attn==2.5.8
+      - triton
+      - xformers==0.0.26.post1
+      - transformers==4.41.0
+      - tensorboard
+      - safetensors
+      - tokenizers
+      - huggingface-hub
+      - torchmetrics
+      - torchsummary
+      - prettytable
+      - matplotlib
+      - scipy
+      - scikit-learn
+      - pandas
+      - h5py
+      - seaborn
+      - einops
+      - tqdm
