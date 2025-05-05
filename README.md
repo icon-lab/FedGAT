@@ -97,7 +97,7 @@ torchrun --nproc_per_node=1 train.py \
 | `--comm_round`   | Number of communication rounds                   | 1       |
 | `--depth`        | Model depth                                       | 16      |
 | `--bs`           | Batch size                                        | 16      |
-| `--ep`           | Number of epochs                                  | 200     |
+| `--ep`           | Number of epochs                                  | 500     |
 | `--fp16`         | Mixed precision training                          | 1       |
 | `--alng`         | AdaLN gamma                                        | 1e-3    |
 | `--wpe`          | Final learning rate ratio at the end of training   | 0.1     |
